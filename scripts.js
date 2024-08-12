@@ -29,7 +29,7 @@ function sendMail() {
 
     const serviceID = "service_j4t9wnc"; // Replace with your actual service ID
     const templateID = "template_lo2wlav"; // Replace with your actual template ID
-
+    
     emailjs
         .send(serviceID, templateID, params)
         .then((res) => {
